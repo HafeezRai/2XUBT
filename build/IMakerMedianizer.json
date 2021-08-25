@@ -1,0 +1,252 @@
+{
+  "contractName": "IMakerMedianizer",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "read",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"read\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/IMakerMedianizer.sol\":\"IMakerMedianizer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/IMakerMedianizer.sol\":{\"keccak256\":\"0xa1baa0c95f0f8ba7cbd3ce471bcf8fe21912f93a97388f434d5cf953938f6a27\",\"urls\":[\"bzz-raw://77bce04f4c24395de57f976cb78b911556e4b8c592e892fa379416964096c555\",\"dweb:/ipfs/QmUTJnf82YDus2XSFXEi5JprvpVpnD6XwG6Lec4G8417JR\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.5.16;\n\ninterface IMakerMedianizer {\n    function read() external view returns (bytes32);\n}\n",
+  "sourcePath": "/Users/b4uwallet/Downloads/2XUBT/contracts/interfaces/IMakerMedianizer.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/IMakerMedianizer.sol",
+    "exportedSymbols": {
+      "IMakerMedianizer": [
+        2361
+      ]
+    },
+    "id": 2362,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2355,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:13"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 2361,
+        "linearizedBaseContracts": [
+          2361
+        ],
+        "name": "IMakerMedianizer",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 2360,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "read",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2356,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "72:2:13"
+            },
+            "returnParameters": {
+              "id": 2359,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2358,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2360,
+                  "src": "98:7:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 2357,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "98:7:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "97:9:13"
+            },
+            "scope": 2361,
+            "src": "59:48:13",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2362,
+        "src": "26:83:13"
+      }
+    ],
+    "src": "0:110:13"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/interfaces/IMakerMedianizer.sol",
+      "exportedSymbols": {
+        "IMakerMedianizer": [
+          2361
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".16"
+          ]
+        },
+        "id": 2355,
+        "name": "PragmaDirective",
+        "src": "0:24:13"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            2361
+          ],
+          "name": "IMakerMedianizer",
+          "scope": 2362
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "documentation": null,
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "read",
+              "scope": 2361,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2356,
+                "name": "ParameterList",
+                "src": "72:2:13"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 2360,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes32",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes32",
+                          "type": "bytes32"
+                        },
+                        "id": 2357,
+                        "name": "ElementaryTypeName",
+                        "src": "98:7:13"
+                      }
+                    ],
+                    "id": 2358,
+                    "name": "VariableDeclaration",
+                    "src": "98:7:13"
+                  }
+                ],
+                "id": 2359,
+                "name": "ParameterList",
+                "src": "97:9:13"
+              }
+            ],
+            "id": 2360,
+            "name": "FunctionDefinition",
+            "src": "59:48:13"
+          }
+        ],
+        "id": 2361,
+        "name": "ContractDefinition",
+        "src": "26:83:13"
+      }
+    ],
+    "id": 2362,
+    "name": "SourceUnit",
+    "src": "0:110:13"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.2",
+  "updatedAt": "2021-08-25T05:00:38.290Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
